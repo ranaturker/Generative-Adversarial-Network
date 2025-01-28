@@ -1,0 +1,7 @@
+In this project, a GAN is to be constructed and trained with PyTorch in generating realistic handwritten digits. GAN consists of two neural networks: the discriminator should be able to differentiate real images from the generated ones, and the generator is designed to create new images from random noise. Real images were provided by the MNIST dataset; in order for there to be variety during training, I applied augmentation techniques to them.
+I then implemented the network architectures, chosen hyperparameters, including batch size 128 and noise dimension 64, used the Adam optimizer, and carefully tuned the learning rate to stabilize the training processes. Different hyperparameters have been tried in my experiments: batch sizes, noise dimensions, and learning rates are all varied to check the effects on the dynamics of training and the quality of generated images. After 25 epochs, the significant improvements start to appear: the generator produced diverse, and visually plausible handwritten digits.
+Results showed how effective the GAN framework is in generating the images that are hardly distinguishable from those in the MNIST dataset. The project helped me to understand not only adversarial networks but also provided a basis for studying advanced GAN variants and exploring their applications.
+
+<img width="682" alt="Screenshot 2025-01-28 at 1 38 53 PM" src="https://github.com/user-attachments/assets/682dd2fd-4b7c-407a-a2ba-66d617099849" />
+
+
